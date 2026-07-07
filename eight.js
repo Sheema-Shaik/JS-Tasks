@@ -123,17 +123,3 @@ search.addEventListener("keyup",()=>{
 });
 }
 
-products.forEach(function(product) {
-
-    if (
-        titleMatches &&
-        categoryMatches &&
-        priceMatches
-    ) {
-
-        // Show product
-        count++;
-
-    }
-
-});
